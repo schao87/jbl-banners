@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body{margin:0px;}
+#container {
+	position: absolute;
+	width: 298px;
+	height: 598px;
+	border:solid;
+	border-color:#58585a;
+	border-width:1px;
+	overflow:hidden;
+	background-color: #e1e1e1;
+	display: none;
+	z-index:0;
+	cursor:pointer;
+}
+#textHolder {
+	position: absolute;	
+	top:0px;	
+}
+#jbl_logos {
+	opacity: 1;
+}
+#wire {
+	position: absolute;	
+	left: 125px;
+	top: 18px;
+	z-index:-1;
+}
+#headPhoneHolder {
+	position: absolute;	
+	top: -16px;
+}
+.position {
+	position: absolute;
+	left:0px;
+}
+.hide {
+	position: absolute;
+	opacity: 0;
+	left:0px;
+}
+#black_headphone_1 {
+	position: absolute;	
+	left:135px;
+}
+#black_headphone_blur_left {
+	left:0;
+}
+#richMedia{
+	left: 0px;
+	top: 42px;
+	z-index: 1000;
+	position: absolute;
+}
+#wireless_holder {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#white_headphone {
+	position: absolute;
+	left:-300px;
+	top:-15px;
+}
+#RM_rollover{
+	opacity: 0;
+	position: absolute;
+}
+#closeBtnEx{
+	position: absolute;	
+	top: 0;
+	right: 0;
+	height: 40px;
+	width: 120px;
+	z-index: 10;
+}
+#containerEx {
+	position: absolute;
+	width: 598px;
+	height: 598px;
+	border:solid;
+	border-color:#58585a;
+	border-width:1px;
+	overflow:hidden;
+	background: url("richMedia.jpg");
+	background-color: #e1e1e1;
+	display: none;
+	z-index:0;
+	cursor:pointer;
+}
